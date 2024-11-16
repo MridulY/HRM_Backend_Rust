@@ -1,7 +1,6 @@
 use actix_web::{web, Responder, HttpResponse};
 use db::connect::*;
 use models::employee::*;
-use mongodb::bson::doc;
 use futures_util::stream::StreamExt;
 
 use crate::{db, models}; 
